@@ -98,5 +98,5 @@ function encrypt(str = "", k = 0) {
   return encStr;
 }
 
-const res3 = encrypt("xy-z", 3);
+const res3 = encrypt("There’s-a-starman", 3);
 console.log({ res3 });
